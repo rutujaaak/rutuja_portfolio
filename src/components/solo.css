@@ -1,0 +1,70 @@
+.firstSection.right {
+    color: black;
+}
+
+/* Container for first section */
+/* Container for first section */
+/* Container for first section */
+.firstSection{
+    display: flex;
+    justify-content: center;  /* Horizontally center the content */
+    align-items: center;      /* Vertically center the content */
+    height: 100vh;            /* Make the section take up the full viewport height */
+    margin: 0;                /* Remove default margin */
+    color: black;
+}
+
+/* Image Styling */
+.right img {
+    width: auto;              /* Allow the image to maintain its original width */
+    height: 300px;            /* Set a fixed height for the image */
+    margin: auto;             /* Automatically apply equal margins for centering */
+}
+
+
+.left {
+    text-align: center;
+    padding: 65px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+left label {
+    color: black;
+    font-size: 2rem;
+}
+
+.red {
+    color: aqua;
+}
+
+.button {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 0px 24px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+  }
+
+.lef {
+
+    text-align: center;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+
+}
+.leff{
+    text-align: center;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}

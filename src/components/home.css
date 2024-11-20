@@ -1,0 +1,152 @@
+/* Body Styling */
+body {
+    background: #1a1a1d; /* Darker background color */
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header & Navigation Styling */
+nav {
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation links */
+    align-items: center;
+    height: 70px;
+    background-color: #292b2c; /* Dark background for navbar */
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10; /* Keep navbar above other content */
+}
+
+nav .lefts {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lora', serif; /* A classy serif font for the logo */
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end; /* Align links to the right */
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Allow wrapping of navigation items */
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; /* Matches body font */
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #00bcd4; /* Bright cyan for hover */
+    font-size: 1.2rem;
+}
+
+/* First Section Styling */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px; /* Adjusted to prevent overlap with fixed navbar */
+    align-items: center;
+}
+
+.firstSection .leftSection {
+    font-size: 3rem;
+    text-align: center; /* Center text */
+}
+
+.firstSection .rightSection img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Text color and styles */
+.gray {
+    color: gray;
+}
+
+.purple {
+    color: #9b59b6; /* Softer purple for text */
+}
+
+/* Second Section Styling */
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    text-align: center; /* Center align text */
+}
+
+/* Work Experience Box Layout */
+.secondSection .box {
+    background: none; /* No background for the box */
+    width: 100%; /* Stretch content */
+    display: flex;
+    justify-content: center; /* Center content */
+    flex-wrap: wrap; /* Allow content to wrap */
+    margin: 0; /* No margin */
+}
+
+/* Work Experience Item Styling */
+.secondSection .vertical {
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    color: white;
+    text-align: center;
+}
+
+.vertical-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vertical-desc {
+    font-size: 13px;
+    color: gray;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #0e0e1a;
+    padding: 30px 0;
+    margin-top: 50px; /* Prevent overlap with content */
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 50px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer > div {
+    width: 223px;
+}
+
+footer .text-center {
+    text-align: center;
+    color: gray;
+    padding: 12px;
+}

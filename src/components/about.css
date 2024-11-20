@@ -1,0 +1,115 @@
+/* Body Styling */
+body {
+    background: #1a1a1d; /* Darker background color */
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* About Page Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+/* Left Section - Image */
+.left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Left Section - Image (Circle) */
+.left img {
+    width: 150px; /* Small image width */
+    height: 150px; /* Height equal to width to maintain a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle area without distortion */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow around the circle */
+}
+
+
+/* Right Section - Text */
+.right {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.right p {
+    line-height: 1.6;
+    color: #bbb; /* Slightly lighter text color for readability */
+    margin-bottom: 15px;
+}
+
+.right p span {
+    color: #00bcd4; /* Highlighted color for specific words */
+    font-weight: bold;
+}
+
+/* Achievements Box */
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.achievements-box {
+    background-color: #292b2c; /* Dark background for the box */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.achievements-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.achievements-box li {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: white;
+    line-height: 1.6;
+}
+
+.achievements-box li::before {
+    content: "✔ "; /* Checkmark for each point */
+    color: #00bcd4; /* Matching color for the checkmark */
+    font-weight: bold;
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left img {
+        width: 120px; /* Even smaller image size on mobile */
+    }
+
+    .right {
+        text-align: center;
+    }
+}
